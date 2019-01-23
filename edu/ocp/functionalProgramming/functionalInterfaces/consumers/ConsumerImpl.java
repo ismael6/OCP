@@ -5,6 +5,7 @@ import java.util.function.Consumer;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T
  * parameters -> T
  * returns -> void
  * method name -> accept

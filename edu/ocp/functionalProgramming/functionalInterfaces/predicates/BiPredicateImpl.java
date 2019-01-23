@@ -5,7 +5,8 @@ import java.util.function.BiPredicate;
 /**
  * @author IsmaSp6
  *
- * parameters -> T
+ * Parameterized types -> T, U
+ * parameters -> T, U
  * returns -> boolean (IMPORTANT.- it returns the primitive)
  * method name -> test
  *

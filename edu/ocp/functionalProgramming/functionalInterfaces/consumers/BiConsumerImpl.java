@@ -7,6 +7,7 @@ import java.util.function.BiConsumer;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T, U
  * parameters -> T, U
  * returns -> void
  * method name -> accept

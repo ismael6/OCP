@@ -5,6 +5,7 @@ import java.util.function.BiFunction;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T, U, R
  * parameters -> T, U
  * returns -> R
  * method name -> apply

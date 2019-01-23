@@ -7,8 +7,9 @@ import java.util.function.Supplier;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T
  * parameters -> {}
- * returns -> R
+ * returns -> T
  * method name -> get
  * 
  */

@@ -5,6 +5,7 @@ import java.util.function.BinaryOperator;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T
  * parameters -> T, T
  * returns -> T
  * method name -> apply

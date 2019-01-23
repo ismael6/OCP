@@ -5,6 +5,7 @@ import java.util.function.Function;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T, R
  * parameters -> T
  * returns -> R
  * method name -> apply

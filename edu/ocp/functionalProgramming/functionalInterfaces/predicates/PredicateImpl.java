@@ -4,7 +4,8 @@ import java.util.function.Predicate;
 
 /**
  * @author IsmaSp6
- *
+ * 
+ * Parameterized types -> T
  * parameters -> T
  * returns -> boolean (IMPORTANT.- it returns the primitive)
  * method name -> test

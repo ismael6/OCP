@@ -5,6 +5,7 @@ import java.util.function.UnaryOperator;
 /**
  * @author IsmaSp6
  *
+ * Parameterized types -> T
  * parameters -> T
  * returns -> T
  * method name -> apply
