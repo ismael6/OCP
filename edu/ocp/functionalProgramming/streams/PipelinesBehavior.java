@@ -46,9 +46,9 @@ public class PipelinesBehavior {
 		System.out.println();
 		
 		Stream.iterate(1, n -> n+1)
-		.filter(n -> n%2 == 0)
-		.peek(System.out :: print) 		// 2468
-		.limit(4)
-		.forEach(System.out :: print); 	//2468
+			.filter(n -> n%2 == 0)
+			.peek(System.out :: print) 		//2468
+			.limit(4)
+			.forEach(System.out :: print); 	//2468
 	}
 }
