@@ -24,8 +24,8 @@ public class CreatingPrimitiveStreams {
 		
 //		Some utility factories
 		IntStream.range(0, 10); // 0 to 9 values
-		IntStream.rangeClosed(0, 9); // 0 to 9 values
-
+		LongStream.rangeClosed(0, 9); // 0 to 9 values
+//		DoubleStream.range(0,10); RANGE NOT EXISTS ON DoubleStream
 		
 //		Can obtain primitive streams with mapTo* methods
 		Stream.of("one", "two", "three")
