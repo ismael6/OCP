@@ -1,5 +1,7 @@
 package edu.ocp.functionalProgramming.streams;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Stream;
 
 /**
@@ -9,12 +11,21 @@ import java.util.stream.Stream;
  */
 public class PipelinesBehavior {
 	public static void main(String[] args) {
+
+		List<Integer> list = new ArrayList<>();
+		list.add(1);
+		list.add(2);
+		Stream<Integer> stream = list.stream();
+		list.add(3);
+		System.out.println(stream.count()); // count is 3, line 18 only points to source, the pipeline is alive until the terminal operation is called
 		
 //		Stream.generate(() -> "a")
 //			.filter(s -> s.length() > -0) // never ends, keeps filtering elements forever
 //			.sorted() // sorted awaits until filter ends
 //			.limit(2)
 //			.forEach(System.out :: print);
+		
+		System.out.println();
 		
 		Stream.generate(() -> "a")
 			.filter(s -> s.length() > 0) 
