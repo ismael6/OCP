@@ -12,7 +12,7 @@ import java.time.ZonedDateTime;
  *
  * LocalDate -> year, months, day
  * LocalTime -> hour, minute, second, nano
- * LocalDateTime -> LocalDate + LocalTime (toString pull apart date from time with the letter T)
+ * LocalDateTime -> LocalDate + LocalTime (toString() pulls apart date from time with the letter T)
  * ZonedDateTime -> LocalDate + LocalTime + ZoneId (UTC date = (LocalDateTime) - (-1)(timeZoneOff))
  * 
  *  temporal data limits
