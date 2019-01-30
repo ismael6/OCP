@@ -1,8 +1,6 @@
-package edu.ocp.functionalProgramming.advancedStreamPipelines.predefinedCollectors;
+package edu.ocp.functionalProgramming.predefinedCollectors;
 
 import java.util.Comparator;
-import java.util.Map;
-import java.util.Optional;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

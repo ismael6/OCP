@@ -1,4 +1,4 @@
-package edu.ocp.functionalProgramming.advancedStreamPipelines.predefinedCollectors;
+package edu.ocp.functionalProgramming.predefinedCollectors;
 
 import java.util.Comparator;
 import java.util.DoubleSummaryStatistics;

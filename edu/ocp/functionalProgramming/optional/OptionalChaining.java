@@ -1,4 +1,4 @@
-package edu.ocp.functionalProgramming.advancedStreamPipelines;
+package edu.ocp.functionalProgramming.optional;
 
 import java.util.Optional;
 
