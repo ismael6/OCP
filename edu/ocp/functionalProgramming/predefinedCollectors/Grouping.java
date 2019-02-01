@@ -46,7 +46,7 @@ public class Grouping {
 			.of("a", "bb", "cc", "dd", "cc").collect(
 				Collectors.groupingBy(
 					String::length,  // group condition
-					Collectors.mapping(	// mapping for each partitioned group
+					Collectors.mapping(	// mapping for each group
 						s -> s.charAt(0), // takes first character on every element of the group
 						Collectors.maxBy(Comparator.naturalOrder())))) // picks the higher letter of each group
 		);
