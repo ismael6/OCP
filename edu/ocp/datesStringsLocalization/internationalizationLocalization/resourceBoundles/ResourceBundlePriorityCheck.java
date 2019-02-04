@@ -9,7 +9,7 @@ package edu.ocp.datesStringsLocalization.internationalizationLocalization.resour
  * 4.- if not found, takes out country and do 2, 3 again
  * 5.- if not found, takes out language and do 2, 3 again
  * 6.- if not found, search for user default locale as 4, 5
- * .- if not, throw MissingResourceException
+ * 7.- if not, throw MissingResourceException
  */
 public class ResourceBundlePriorityCheck {
 	// searching steps for resource Cinema with Locale("es", "MX") with default locale "en", "US"
