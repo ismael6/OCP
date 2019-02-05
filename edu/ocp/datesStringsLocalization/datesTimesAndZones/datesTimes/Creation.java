@@ -41,8 +41,8 @@ public class Creation {
 		System.out.println("LocalTime factories");
 		System.out.println(LocalTime.now());
 		System.out.println(LocalTime.of(9, 00)); //(int hour, int minute)
-		System.out.println(LocalTime.of(9, 2, 26)); //(int hour, int minute, second)
-		System.out.println(LocalTime.of(9, 2, 26, 1999_999_999)); //(int hour, int minute, second, nano)
+		System.out.println(LocalTime.of(9, 2, 26)); //(int hour, int minute, int second)
+		System.out.println(LocalTime.of(9, 2, 26, 999_999_999)); //(int hour, int minute, int second, int nano)
 		
 		
 //		LocalDateTime factories
@@ -50,12 +50,12 @@ public class Creation {
 		System.out.println(LocalDateTime.now());
 		//with int month
 		System.out.println(LocalDateTime.of(2019, 01, 29, 9, 2)); //int year, int month, int dayOfMonth, int hour, int minute)
-		System.out.println(LocalDateTime.of(2019, 01, 29, 9, 2, 26)); //int year, int month, int dayOfMonth, int hour, int minute), int second
-		System.out.println(LocalDateTime.of(2019, 01, 29, 9, 2, 26, 655)); //int year, int month, int dayOfMonth, int hour, int minute), int second, int nano
+		System.out.println(LocalDateTime.of(2019, 01, 29, 9, 2, 26)); //int year, int month, int dayOfMonth, int hour, int minute, int second)
+		System.out.println(LocalDateTime.of(2019, 01, 29, 9, 2, 26, 655)); //int year, int month, int dayOfMonth, int hour, int minute, int second, int nano)
 		//with enum month
 		System.out.println(LocalDateTime.of(2019, Month.JANUARY, 29, 9, 2)); //int year, Month month, int dayOfMonth, int hour, int minute)
-		System.out.println(LocalDateTime.of(2019, Month.JANUARY, 29, 9, 2, 26)); //int year, Month month, int dayOfMonth, int hour, int minute), int second
-		System.out.println(LocalDateTime.of(2019, Month.JANUARY, 29, 9, 2, 26, 655)); //int year, Month month, int dayOfMonth, int hour, int minute), int second, int nano		
+		System.out.println(LocalDateTime.of(2019, Month.JANUARY, 29, 9, 2, 26)); //int year, Month month, int dayOfMonth, int hour, int minute, int second)
+		System.out.println(LocalDateTime.of(2019, Month.JANUARY, 29, 9, 2, 26, 655)); //int year, Month month, int dayOfMonth, int hour, int minute, int second, int nano)		
 		
 		System.out.println(LocalDateTime.of(LocalDate.now(), LocalTime.now())); //(LocalDate, LocalTime) 
 		
@@ -63,7 +63,7 @@ public class Creation {
 //		ZonedDateTime factories
 		System.out.println("ZonedDateTime factories");
 		System.out.println(ZonedDateTime.now());
-		System.out.println(ZonedDateTime.of(2019, 01, 29, 9, 2, 26, 655, ZoneId.of("America/Mexico_City"))); //int year, int month, int dayOfMonth, int hour, int minute), int second, int nano, ZoneId zone
+		System.out.println(ZonedDateTime.of(2019, 01, 29, 9, 2, 26, 655, ZoneId.of("America/Mexico_City"))); //int year, int month, int dayOfMonth, int hour, int minute, int second, int nano, ZoneId zone)
 //		System.out.println(ZonedDateTime.of(2019, Month.JANUARY, 29, 9, 2, 26, 655, ZoneId.of("America/Mexico_City"))); //Month enum parameter not allowed on ZonedDateTime factories
 		System.out.println(ZonedDateTime.of(LocalDate.now(), LocalTime.now(), ZoneId.of("America/Mexico_City"))); // (LocalDate date, LocalTime time, ZoneId zone)
 		System.out.println(ZonedDateTime.of(LocalDateTime.now(), ZoneId.of("America/Mexico_City"))); // (LocalDateTime dateTime, ZoneId zone)
