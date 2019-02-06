@@ -7,8 +7,8 @@ package edu.ocp.datesStringsLocalization.internationalizationLocalization.resour
  * 2.- takes most specific match 
  * 3.- when java resource and properties file tie, prefers java resource
  * 4.- if not found, takes out country and do 2, 3 again
- * 5.- if not found, takes out language and do 2, 3 again
- * 6.- if not found, search for user default locale as 4, 5
+ * 5.- if not found, search for user default locale 
+ * 6.- if not found, do 4
  * 7.- if not, throw MissingResourceException
  */
 public class ResourceBundlePriorityCheck {

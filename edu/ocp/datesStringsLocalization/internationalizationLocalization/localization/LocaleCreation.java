@@ -9,7 +9,7 @@ import java.util.Locale;
 public class LocaleCreation {
 	public static void main(String[] args) {
 		
-//		using enum
+//		using constant
 		Locale withEnum = Locale.FRENCH;
 		System.out.println(withEnum); //fr
 		
