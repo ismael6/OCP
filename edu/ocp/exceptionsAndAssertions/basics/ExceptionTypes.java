@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.categories;
+package edu.ocp.exceptionsAndAssertions.basics;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -20,16 +20,16 @@ import java.util.MissingResourceException;
  * checked exception -> IS An Exception and IS NOT A RuntimeException
  * 
  */
-public class CheckedVsUnchecked {
+public class ExceptionTypes {
 	public static void main(String[] args) {
-		// checkedExceptions (REQUIRED TO CATCH OR DECLARE THROWS)
+		// checkedExceptions (REQUIRED TO CATCH OR DECLARE ON METHOD SIGNATURE)
 		Exception parse = new ParseException("", 0); // convert from String to number
 		Exception io = new IOException(); // input-output 
 		IOException fileNotFound = new FileNotFoundException(); // input-output 
 		IOException notSerializable = new NotSerializableException(); // input-output 
 		SQLException sql = new SQLException(); // database
 		
-//		unchecked exceptions (OPTIONAL TO CATCH OR DECLARE THROWS)
+//		unchecked exceptions (OPTIONAL TO CATCH OR DECLARE ON METHOD SIGNATURE)
 		RuntimeException arithmetic = new ArithmeticException();
 		RuntimeException outOdBounds = new ArrayIndexOutOfBoundsException();
 		RuntimeException clssCast = new ClassCastException();
