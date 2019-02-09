@@ -14,7 +14,7 @@ public class ExecutingThread {
 		new Thread(()->{System.out.println("running from lambda");}).start(); //executing thread from a lambda
 		new ISAThread().start(); //executing thread from a Thread object
 		
-		// No new threads (actual thread executing, run this tasks)
+		// No new threads (actual thread executing run this tasks)
 		new Thread(new ISARunnable()).run();
 		new Thread(()->{System.out.println("running from lambda");}).run();
 		new ISAThread().run();
