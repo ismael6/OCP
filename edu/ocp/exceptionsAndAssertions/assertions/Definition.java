@@ -10,6 +10,7 @@ package edu.ocp.exceptionsAndAssertions.assertions;
  *  1) assert 'expression' (expression part can be surrounded by parenthesis)
  * 	1) assert 'expression' : 'message' (expression part can be surrounded by parenthesis)
  *  
+ * Assertions are disabled by default 
  * If Assertions are not enabled, program execution ignores assertions
  * 
  * Its highly recommended assertions being nullpotent
