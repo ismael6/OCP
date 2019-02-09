@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.tryWithResources;
+package edu.ocp.exceptionsAndAssertions.exceptions.tryWithResources;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

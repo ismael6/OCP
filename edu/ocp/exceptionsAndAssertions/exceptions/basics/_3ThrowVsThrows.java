@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.basics;
+package edu.ocp.exceptionsAndAssertions.exceptions.basics;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
  * throw -> imperative (on body (throw an exception))
  *
  */
-public class ThrowVsThrows {
+public class _3ThrowVsThrows {
 	public static void main(String[] args) throws IOException{
 		throw new RuntimeException();
 	}

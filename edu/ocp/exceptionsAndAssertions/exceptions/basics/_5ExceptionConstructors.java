@@ -1,8 +1,8 @@
-package edu.ocp.exceptionsAndAssertions.basics;
+package edu.ocp.exceptionsAndAssertions.exceptions.basics;
 
 import java.io.IOException;
 
-public class ExceptionConstructors {
+public class _5ExceptionConstructors {
 	public static void main(String[] args) throws CustomException{
 //		throw new CustomException();
 //		throw new CustomException("message test");

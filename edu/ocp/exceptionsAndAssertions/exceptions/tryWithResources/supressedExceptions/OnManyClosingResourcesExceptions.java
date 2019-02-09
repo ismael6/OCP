@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.tryWithResources.supressedExceptions;
+package edu.ocp.exceptionsAndAssertions.exceptions.tryWithResources.supressedExceptions;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
 public class OnManyClosingResourcesExceptions {
 	public static void main(String[] args) {
 		
-//		The first one exception is the primary, the other ones are supressde exceptions
+//		The first one exception is the primary, the other ones are supressed exceptions
 		try(ResourceToClose rtc1 = new ResourceToClose();
 				ResourceToClose rtc2 = new ResourceToClose();
 				ResourceToClose rtc3 = new ResourceToClose()){

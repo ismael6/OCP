@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.basics;
+package edu.ocp.exceptionsAndAssertions.exceptions.basics;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import java.io.IOException;
  *
  * syntax-> ExceptionA + [| ExceptionB] + [|ExceptionN] + identifier
  */
-public class MultiCatch {
+public class _6MultiCatch {
 	public static void main(String[] args) {
 		try {} 
 		catch (NullPointerException | ArithmeticException | NumberFormatException e) {}

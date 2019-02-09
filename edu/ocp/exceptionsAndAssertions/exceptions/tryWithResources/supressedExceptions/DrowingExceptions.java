@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.tryWithResources.supressedExceptions;
+package edu.ocp.exceptionsAndAssertions.exceptions.tryWithResources.supressedExceptions;
 
 /**
  * @author IsmaSp6

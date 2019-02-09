@@ -1,10 +1,10 @@
-package edu.ocp.exceptionsAndAssertions.basics;
+package edu.ocp.exceptionsAndAssertions.exceptions.basics;
 
 /**
  * @author IsmaSp6
  *
  */
-public class CustomExceptions {
+public class _4CustomExceptions {
 	public static void main(String[] args) {
 		
 	}

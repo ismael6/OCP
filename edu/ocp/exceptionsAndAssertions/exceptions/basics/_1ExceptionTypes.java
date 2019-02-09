@@ -1,4 +1,4 @@
-package edu.ocp.exceptionsAndAssertions.basics;
+package edu.ocp.exceptionsAndAssertions.exceptions.basics;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import java.util.MissingResourceException;
  * checked exception -> IS An Exception and IS NOT A RuntimeException
  * 
  */
-public class ExceptionTypes {
+public class _1ExceptionTypes {
 	public static void main(String[] args) {
 		// checkedExceptions (REQUIRED TO CATCH OR DECLARE ON METHOD SIGNATURE)
 		Exception parse = new ParseException("", 0); // convert from String to number
@@ -30,8 +30,8 @@ public class ExceptionTypes {
 		SQLException sql = new SQLException(); // database
 		
 //		unchecked exceptions (OPTIONAL TO CATCH OR DECLARE ON METHOD SIGNATURE)
-		RuntimeException arithmetic = new ArithmeticException();
-		RuntimeException outOdBounds = new ArrayIndexOutOfBoundsException();
+		RuntimeException arithmetic = new ArithmeticException(); // division by zero
+		RuntimeException outOdBounds = new ArrayIndexOutOfBoundsException(); 
 		RuntimeException clssCast = new ClassCastException();
 		RuntimeException illegalArgument = new IllegalArgumentException();
 		RuntimeException nullPointer = new NullPointerException();
