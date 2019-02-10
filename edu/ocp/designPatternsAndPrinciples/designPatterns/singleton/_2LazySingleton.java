@@ -15,7 +15,7 @@ public class _2LazySingleton {
 	
 /*	Solves concurrency troubles using the "synchronized" modifier, 
  * 	this grants Thread safety again */
-	public static synchronized _2LazySingleton getInstance() {
+	public static _2LazySingleton getInstance() {
 		if(singleton == null) {
 			singleton = new _2LazySingleton();
 		}

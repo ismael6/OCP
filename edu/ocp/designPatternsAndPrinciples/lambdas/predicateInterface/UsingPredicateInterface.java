@@ -12,7 +12,7 @@ import java.util.function.Predicate;
 public class UsingPredicateInterface {
 	public static void main(String[] args) {
 
-		Predicate paramObject = 
+		Predicate<Object> paramObject = 
 				(Object a) -> {a.hashCode(); return false;};
 		
 //		if predicate raw type is missed, by default the parameter type is Object

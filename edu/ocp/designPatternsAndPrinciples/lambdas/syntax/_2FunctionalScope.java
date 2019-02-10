@@ -19,8 +19,10 @@ import java.util.function.Predicate;
  */
 class _2FunctionalScope {
 	public static void main(String[] args) {
-		Predicate p = 
+		Predicate<Boolean> p = 
 //				single and only one identifier -> single and only one statement
-				parameter -> new Random().nextInt() > .5;
+				parameter -> parameter;
+				
+//				System.out.println(p.test(5));
 	}
 }
