@@ -1,5 +1,7 @@
 package edu.ocp.concurrency.singleThreadExecutor;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -14,14 +16,27 @@ import java.util.concurrent.Future;
  *	
  */
 public class _3SubmitTasks {
-	public static void main(String[] args) throws InterruptedException {
-		ExecutorService es = Executors.newSingleThreadExecutor();
-//		es.execute(()-> {});
-		Future f = es.submit(()-> { for(int i = 0; i < 1000; System.out.println(i++));});
-		while (!f.isDone()) {
-			System.out.println("task still working");
+	public static void main(String[] args) throws InterruptedException, ExecutionException {
+		Runnable runnable = () -> {};
+		Callable<Integer> callable = () -> 5;
+		
+		ExecutorService es = null;
+		try {
+			es = Executors.newSingleThreadExecutor();
+
+//			EXECUTE METHOD
+			es.execute(()-> {}); // passing a Runnable
+
+//			SUBMIT METHOD
+			Future fRunnable = es.submit(runnable); // passing a Runnable
+			Future fCallable = es.submit(callable); // passing a Callable
+			
+			while (!fCallable.isDone()) {
+				System.out.println("task still working");
+			}
+			System.out.println("task finished with result: "+fCallable.get());
+		} finally {
+			if (es!= null) es.shutdown();
 		}
-		System.out.println("task finished");
-		es.shutdown();
 	}
 }
