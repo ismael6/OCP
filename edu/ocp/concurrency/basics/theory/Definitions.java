@@ -6,6 +6,7 @@ package edu.ocp.concurrency.basics.theory;
  *	Thread -> smallest unit of execution that can be scheduled by the operating system
  *	Process -> group of associated threads executing in the same shared environment
  *	Task -> single unit of work performed by a thread
+ *	Shared environment -> same memory and threads can communicate directly each other
  *
  *	Concurrency -> property of executing multiple threads and processes at the same time
  * 	Thread scheduler -> determines which thread executes

@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 /**
  * @author IsmaSp6
  *
- * There are tow types of shutting down a ThreadExecutor
+ * There are two types of shutting down a ThreadExecutor
  * 	shutdown() -> 
  * 		* quietly shutdowns (not allow new tasks but finish pending tasks)
  * 		* if a new task is submitted, a RejectedExecutionException is thrown

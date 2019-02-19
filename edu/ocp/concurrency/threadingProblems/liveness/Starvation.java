@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 /**
  * @author IsmaSp6
  * 
- * One or more threads dont cant execute their tasks 
+ * One or more threads cant execute their tasks 
  *
  */
 public class Starvation {

@@ -20,10 +20,5 @@ public class Creation {
 		
 //		each thread on the pool can be scheduled
 		ScheduledExecutorService schedule = Executors.newScheduledThreadPool(5); // pool using 5 threads with capability of schedule
-		
-		System.out.println(Runtime.getRuntime().freeMemory());
-		System.out.println(Runtime.getRuntime().totalMemory());
-		System.out.println(Runtime.getRuntime().maxMemory());
-		System.out.println(Runtime.getRuntime().availableProcessors());
 	}
 }

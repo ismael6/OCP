@@ -14,8 +14,8 @@ public class Solution {
 		ExecutorService es = null;
 		try {
 			es = Executors.newFixedThreadPool(5);
-//			CyclicBarrier c1 = new CyclicBarrier(5); //barrier holds for 5 threads crashing on it
-			CyclicBarrier c1 = new CyclicBarrier(7); //DEAD LOCK barrier holds for 7 threads crashing on it and there will be at much 5, 
+			CyclicBarrier c1 = new CyclicBarrier(5); //barrier holds for 5 threads crashing on it
+//			CyclicBarrier c1 = new CyclicBarrier(7); //DEAD LOCK barrier holds for 7 threads crashing on it and there will be at much 5, 
 			CyclicBarrier c2 = 
 					new CyclicBarrier(5, () -> System.out.print("all waited")); // runnable argument executes at termination of barrier
 			for(int i = 0; i < 5; i++) {

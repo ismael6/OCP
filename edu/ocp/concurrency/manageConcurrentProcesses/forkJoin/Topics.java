@@ -1,4 +1,4 @@
-package edu.ocp.concurrency.manageConcurrentProcesses.forkJoinGenerals;
+package edu.ocp.concurrency.manageConcurrentProcesses.forkJoin;
 
 /**
  * @author IsmaSp6
