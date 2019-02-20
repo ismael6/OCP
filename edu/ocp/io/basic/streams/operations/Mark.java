@@ -1,4 +1,4 @@
-package edu.ocp.io.basic.streams.basics.operations;
+package edu.ocp.io.basic.streams.operations;
 
 /**
  * @author IsmaSp6

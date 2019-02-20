@@ -1,4 +1,4 @@
-package edu.ocp.io.basic.streams.basics;
+package edu.ocp.io.basic.streams;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
