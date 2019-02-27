@@ -12,7 +12,7 @@ import java.io.IOException;
  * @author IsmaSp6
  *
  *	BufferedReader have the readLine() method that returns the file line as a String or null if EOF
- *	BufferedWriter have the writeLine() method that returns a String representing the line read
+ *	BufferedWriter have the write() method that returns a String representing the line read
  *	BufferedWriter have the newLine() method that inserts a line break
  */
 public class Impl {

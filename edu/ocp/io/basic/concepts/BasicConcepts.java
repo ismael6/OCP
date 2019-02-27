@@ -5,7 +5,7 @@ import java.io.File;
 /**
  * @author IsmaSp6
  *
- *	FileSystem -> Reads ad writes data within a computer
+ *	FileSystem -> Reads and writes data within a computer
  *	
  *	File -> A record within a fileSystem that stores user and system data
  *	

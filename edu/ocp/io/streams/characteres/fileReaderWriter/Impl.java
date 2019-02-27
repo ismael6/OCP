@@ -10,7 +10,7 @@ import java.io.IOException;
  * @author IsmaSp6
  *
  *	FileReader.read() -> reads the next character, returns -1 on EOF
- *	FileReader.write() -> writes the character read
+ *	FileWriter.write() -> writes the character read
  */
 public class Impl {
 	public static void main(String[] args) throws FileNotFoundException, IOException {

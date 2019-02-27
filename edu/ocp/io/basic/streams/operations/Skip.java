@@ -3,7 +3,7 @@ package edu.ocp.io.basic.streams.operations;
 /**
  * @author IsmaSp6
  *
- *	skip():int
+ *	skip():long
  *	InputStream/Reader have this methods
  *	skips a certain number of bytes
  *	returns the number of bytes skipped

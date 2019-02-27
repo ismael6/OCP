@@ -13,7 +13,7 @@ import java.io.IOException;
  * 
  * WRAPS FileInputStream / FileOutputStream
  * 
- * BufferedInputStream read(byte[]) method reads number into provided array and returns number of bytes readed, returns -1 on EOF
+ * BufferedInputStream read(byte[]) method reads number of bytes into provided array and returns number of bytes readed, returns -1 on EOF
  * BufferedInputStream write(byte[] data, int off, int length) method writes into the stream the data with the specified offset and length
  *
  */

@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 /**
  * @author IsmaSp6
  * 
- *	Distinguished by its postfix
+ *	Distinguished by its data treatment
  *		*stream -> read all types of binary data (FileInputStream)
  *		*writer/reader -> read/write characters and String data (FileReader)
  *
