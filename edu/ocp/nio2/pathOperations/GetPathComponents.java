@@ -1,4 +1,4 @@
-package edu.ocp.nio2.operations.path;
+package edu.ocp.nio2.pathOperations;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

@@ -1,4 +1,4 @@
-package edu.ocp.nio2.operations.files;
+package edu.ocp.nio2.files.operations;
 
 import java.io.IOException;
 import java.nio.file.Files;

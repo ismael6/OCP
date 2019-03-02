@@ -1,4 +1,4 @@
-package edu.ocp.nio2.operations.files.copy;
+package edu.ocp.nio2.files.operations.copy;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

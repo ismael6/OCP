@@ -1,4 +1,4 @@
-package edu.ocp.nio2.operations;
+package edu.ocp.nio2.basics;
 
 /**
  * @author IsmaSp6
