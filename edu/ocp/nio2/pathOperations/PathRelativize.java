@@ -35,9 +35,9 @@ public class PathRelativize {
 //		System.out.println(absolute3.relativize(relative3));
 
 //		absolutes with diferent root RUNTIME EXCEPTION
-		Path absolute4 = Paths.get("c:/files/file.txt");
-		Path absolute5 = Paths.get("info.txt");
-		System.out.println(absolute4.relativize(absolute5));
+//		Path absolute4 = Paths.get("c:/files/file.txt");
+//		Path absolute5 = Paths.get("info.txt");
+//		System.out.println(absolute4.relativize(absolute5));
 		
 	}
 }

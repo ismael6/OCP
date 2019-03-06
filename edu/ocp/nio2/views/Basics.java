@@ -6,7 +6,7 @@ package edu.ocp.nio2.views;
  *	view -> group of related attributes for a particular file system type
  *		A file supports multiple views (allows to retrieve and update various sets of information)
  *	
- *	BasicFileAttributes / BasicFileAttributeView -> set of attributes supported by all fil systems
+ *	BasicFileAttributes / BasicFileAttributeView -> set of attributes supported by all file systems
  *
  */
 public class Basics {

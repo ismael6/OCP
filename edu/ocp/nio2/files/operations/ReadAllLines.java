@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author IsmaSp6
  *
- *	read all lines o the file and saves them in a List<String>
+ *	read all lines of the file and saves them in a List<String>
  *
  *	throws IOException if file not exists
  *

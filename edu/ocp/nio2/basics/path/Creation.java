@@ -14,7 +14,7 @@ import java.nio.file.Paths;
  *
  *	URI -> Uniform resource identifier (constructor throws URISyntaxException)
  *		syntax
- *			schema -> [file://] | [http://] | [https://] | [ftp://]
+ *			schema -> [file://] | [http://] | [https://] | [ftp://] + Path
  */
 public class Creation {
 	public static void main(String[] args) throws URISyntaxException {

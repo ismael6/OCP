@@ -17,7 +17,7 @@ import java.nio.file.attribute.UserPrincipal;
 public class Owner {
 	public static void main(String[] args) throws IOException {
 		Path path = Paths.get("/user/config.txt");
-//		System.out.println(Files.getOwner(path));
+		System.out.println(Files.getOwner(path));
 		UserPrincipal user = path.getFileSystem().getUserPrincipalLookupService().lookupPrincipalByName("isma");
 		Files.setOwner(path, user);
 	}
