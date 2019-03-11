@@ -41,6 +41,6 @@ public class Basics {
 		}
 		
 		rs.next(); // ok, next() returns true or false but next line may have a problem
-		String name = rs.getString(1); // may throw exception because can be out of rows bounds
+		String name = rs.getString(1); // maybe throw exception because can be out of rows bounds
 	}
 }
